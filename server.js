@@ -9,3 +9,6 @@ app.get('/', (req, res) => {
 	res.sendFile("/Users/alexbertotto/Desktop/javascript practice/mern_prac" + '/index.html')
 })
 
+app.post('/quotes', (req, res) => {
+	console.log("hellooooooooooo")
+})
