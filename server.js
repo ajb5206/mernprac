@@ -6,5 +6,6 @@ app.listen(8000, function() {
 })
 
 app.get('/', (req, res) => {
-	res.send("Hello World")
+	res.sendFile("/Users/alexbertotto/Desktop/javascript practice/mern_prac" + '/index.html')
 })
+
